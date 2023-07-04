@@ -1,5 +1,6 @@
 import os
 
+print(os.environ)
 SERVICE_DID = os.environ.get('SERVICE_DID', None)
 HOSTNAME = os.environ.get('HOSTNAME', None)
 
