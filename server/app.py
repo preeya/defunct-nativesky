@@ -30,8 +30,8 @@ signal.signal(signal.SIGINT, sigint_handler)
 
 @app.route('/')
 def index():
-    return 'NativeSky: https://bsky.app/profile/did:plc:amuxij7yxqdhv4w5arycjvrs/feed/nativesky' \
-           'Code at https://github.com/preeya/nativesky' \
+    return 'NativeSky: https://bsky.app/profile/did:plc:amuxij7yxqdhv4w5arycjvrs/feed/nativesky  ' \
+           'Code at https://github.com/preeya/nativesky  ' \
            'Forked from ATProto Feed Generator powered by The AT Protocol SDK for Python (https://github.com/MarshalX/atproto).'
 
 
