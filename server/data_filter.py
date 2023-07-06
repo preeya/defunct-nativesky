@@ -25,7 +25,7 @@ def operations_callback(ops: dict) -> None:
         logger.info(f'New post (with images: {post_with_images}): {inlined_text}')
 
         # only alf-related posts
-        if 'barbie' in record.text.lower():
+        if '#nativesky' in record.text.lower():
             reply_parent = None
             if record.reply and record.reply.parent.uri:
                 reply_parent = record.reply.parent.uri
