@@ -1,3 +1,5 @@
+This repository no longer serves a feed. IndigiSky is the preferred Native Bluesky feed. As of August 2023 this repo is not maintained. I'm leaving it up for a couple of months as a public starting point for creating a Bluesky feed in Python.
+
 ## ATProto Feed Generator powered by [The AT Protocol SDK for Python](https://github.com/MarshalX/atproto)
 
 > Feed Generators are services that provide custom algorithms to users through the AT Protocol.
